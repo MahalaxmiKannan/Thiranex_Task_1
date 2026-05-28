@@ -24,7 +24,7 @@ df.drop_duplicates(inplace=True)
 Q1 = df['bmi'].quantile(0.25)
 Q3 = df['bmi'].quantile(0.75)
 IQR = Q3 - Q1
-print(f"Interquartile Range for BMI: {IQR}")
+print(f"Interquartile Range: {IQR}")
 
 # 4. Data Visualization
 plt.figure(figsize=(15, 5))
