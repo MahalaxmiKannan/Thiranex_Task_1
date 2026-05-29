@@ -8,6 +8,7 @@ df = pd.read_csv('insurance.csv')
 
 # 2. Data Cleaning
 print("--- Initial Data Info ---")
+print("Statistics Information")
 print(df.info())
 
 # Handle Missing Values (if any)
